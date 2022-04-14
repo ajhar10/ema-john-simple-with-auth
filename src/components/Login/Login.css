@@ -1,0 +1,85 @@
+.form-container {
+    /* height: 600px; */
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.form-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+
+}
+
+.input-group label {
+    display: block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.0015em;
+    color: #2A414F;
+
+}
+
+.input-group input {
+    margin-bottom: 20px;
+    height: 55px;
+    width: 414px;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.form-submit {
+    width: 415px;
+    height: 55px;
+    font-size: 20px;
+    background-color: #FF9900;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-link {
+    color: #FF9900;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.horizontal-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    border: 1px solid #95A0A7;
+    width: 145px;
+    height: 0px;
+    margin: 2px 15px;
+    border-radius: 10px;
+}
+
+.google-sign {
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
